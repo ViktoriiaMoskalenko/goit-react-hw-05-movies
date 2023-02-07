@@ -1,0 +1,186 @@
+.nav {
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.nav_link {
+  text-decoration: none;
+  padding: 20px;
+  color: dimgrey;
+  font-weight: 600;
+}
+
+.nav_link:hover,
+.nav_link:focus {
+  color: green;
+}
+
+.form {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.form_button {
+  margin-left: 10px;
+  background-color: dimgray;
+  color: white;
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.form_button:hover,
+.form_button:focus {
+  background-color: darkgray;
+  color: black;
+}
+
+.form_input {
+  padding: 5px 10px;
+}
+
+.list {
+  padding: 0;
+  margin-left: 45px;
+}
+
+.item {
+  text-decoration: none;
+  color: black;
+}
+
+.item:hover,
+.item:focus {
+  color: blue;
+}
+
+.poster {
+  width: 333px;
+  height: auto;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.movie_details {
+  display: flex;
+  gap: 30px;
+}
+
+.cast_profile {
+  width: 150px;
+  height: 225px;
+}
+
+.back_btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.back_btn:hover,
+.back_btn.focus {
+  color: green;
+}
+
+.wrapper_details {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.desk_movie {
+  width: 400px;
+}
+
+.cast_desk {
+  margin: 0;
+}
+
+.cast_list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.cast_item {
+  width: 150px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  /* width: calc((100% - 140px) / 8); */
+}
+
+.cast_wrap_desk {
+  padding: 10px;
+}
+
+.moviesList_poster {
+  width: 250px;
+  height: auto;
+  display: block;
+}
+
+.moviesList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.moviesList_item {
+  width: 250px;
+}
+
+.moviesList_title {
+  display: flex;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin: 0;
+  padding: 10px 5px;
+  font-size: 20px;
+  height: 40px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.moviesList_item:hover,
+.moviesList_item:focus {
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.reviws_wrap {
+  border: 1px solid #4d4d4d;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.reviws_title,
+.reviws_desk {
+  margin: 0;
+}
+
+.reviws_desk {
+  margin-top: 10px;
+}
+
+.movieDetails_list {
+  margin-left: 20px;
+  padding: 0;
+}
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
